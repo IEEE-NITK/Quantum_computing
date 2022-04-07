@@ -10,8 +10,7 @@ E = np.e
 
 
 '''
-
-QuantAlgs attempts to simulate and run basic quantum algorithms. Each algorithm is represented by a class that has three functions:
+Each algorithm is represented by a class that has three functions:
 
 algoCircuit(), which returns the circuit
 sim() which simulates the results on qasm-simulator 
