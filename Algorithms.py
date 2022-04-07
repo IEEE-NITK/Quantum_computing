@@ -7,20 +7,6 @@ import random as random
 PI = np.pi
 E = np.e
 
-
-
-'''
-Each algorithm is represented by a class that has three functions:
-
-algoCircuit(), which returns the circuit
-sim() which simulates the results on qasm-simulator 
-run(), which runs the algorithm on the IBMQ device of your choice
-
-Example: 
-
-grover.run('1111', device='ibmq_16_mealbourne') runs the gover algorithm on the mealborne system  
-
-'''
 class berVaz():
     #Circuit which Implements the Bernstein-Vazarani Algorithm
     def berVazCirc(n):
